@@ -14,3 +14,7 @@ I've added the method parseInt because I want the result to be an integer!*/
 const kilometersNumber = parseInt(prompt('Quanti km vuoi percorrere?'));
 const passengerAge = parseInt(prompt('Qual è la tua età?'));
 
+/* With these informations the program must calculate the total price of journey, according to these rules:
+the ticket price is defined by km (0.21 € per km).
+I've created a 'const' variable to calculate the multiplication of the ticket price! */
+const ticketPrice = kilometersNumber * 0.21;
