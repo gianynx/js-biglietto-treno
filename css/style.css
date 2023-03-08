@@ -1,0 +1,10 @@
+#total_price {
+    font-size: 125px;
+    color: red;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+}
+
+body {
+    background-color: black;
+}
