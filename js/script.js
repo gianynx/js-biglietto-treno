@@ -8,7 +8,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 
 /* The program must ask to user the number of kilometers he wishes to travel and the passenger's age.
-I've realized two 'const' variables bacause aren't reassignagles and I've assigned each 'const' variable to the prompt method, which shows a dialogue window asking the user for input.
+I've realized two 'const' variables bacause aren't reassignables and I've assigned each 'const' variable to the prompt method, which shows a dialogue window asking the user for input.
 I've added the method parseInt because I want the result to be an integer!*/
 
 const kilometersNumber = parseInt(prompt('Quanti km vuoi percorrere?'));
@@ -18,3 +18,17 @@ const passengerAge = parseInt(prompt('Qual è la tua età?'));
 the ticket price is defined by km (0.21 € per km).
 I've created a 'const' variable to calculate the multiplication of the ticket price! */
 const ticketPrice = kilometersNumber * 0.21;
+
+/* Total price of journey!
+I've realized a 'let' variable because I want to realize a variable without assigning a value! */
+let totalPrice;
+
+/*There is a 20% discount for minors!
+I've created a 'const' variable to realize the percentage operations! */
+
+const discount_20 = (ticketPrice * 20) / 100;
+
+/*There is a 40% discount for over 65!
+I've created a 'const' variable to realize the percentage operations! */
+
+const discount_40 = (ticketPrice * 40) / 100;
