@@ -2,10 +2,24 @@ body {
     background-image: linear-gradient(to right, aqua, red, orange, blue, green, violet, indigo, yellow);
 }
 
+#card {
+    width: 40rem;
+    height: 15rem;
+    border-radius: 30px;
+    margin: 10rem 28rem;
+    background-image: radial-gradient(#217373, #173540, #161F30);
+    border-style: none;
+    opacity: 0.8;
+    position: relative;
+}
+
 #total_price {
-    font-size: 50px;
-    color: white;
+    font-size: 25px;
+    color: #84B026;
     text-align: center;
     padding-top: 200px;
     font-family: 'Noto Serif', serif;
+    position: absolute;
+    bottom: 70px;
+    left: 35px;
 }
