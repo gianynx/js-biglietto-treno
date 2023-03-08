@@ -8,7 +8,9 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 
 /* The program must ask to user the number of kilometers he wishes to travel and the passenger's age.
-I've realized two 'const' variables bacause aren't reassignagles and I've assigned each 'const' variable to the prompt method, which shows a dialogue window asking the user for input. */
+I've realized two 'const' variables bacause aren't reassignagles and I've assigned each 'const' variable to the prompt method, which shows a dialogue window asking the user for input.
+I've added the method parseInt because I want the result to be an integer!*/
 
-const kilometersNumber = prompt('Quanti km vuoi percorrere?');
-const passengerAge = prompt('Qual è la tua età?');
+const kilometersNumber = parseInt(prompt('Quanti km vuoi percorrere?'));
+const passengerAge = parseInt(prompt('Qual è la tua età?'));
+
