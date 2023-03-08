@@ -22,11 +22,11 @@ the ticket price is defined by km (0.21 € per km).
 I've created a 'const' variable to calculate the multiplication of the ticket price! */
 const ticketPrice = kilometersNumber * 0.21;
 
-/*There is a 20% discount for minors!
+/* There is a 20% discount for minors!
 I've created a 'const' variable to realize the percentage operations! */
 const discount_20 = (ticketPrice * 20) / 100;
 
-/*There is a 40% discount for over 65!
+/* There is a 40% discount for over 65!
 I've created a 'const' variable to realize the percentage operations! */
 const discount_40 = (ticketPrice * 40) / 100;
 
@@ -39,3 +39,8 @@ if (passengerAge < 18) {
 if (passengerAge >= 65) {
     totalPrice = ticketPrice - discount_40;
 }
+
+/* The output of the final price should be put out in human form (with maximum two decimals, to indicate cents on the price).
+I've used document.getElementById("id").innerHTML to access <h1> title of index.html!
+I've used the method toFixed to converte the number of the total price to a string with two decimals! */
+document.getElementById("total_price").innerHTML = 'Il prezzo totale del biglietto è di ' + totalPrice.toFixed(2) + '€';
