@@ -1,10 +1,11 @@
-#total_price {
-    font-size: 125px;
-    color: red;
-    text-align: center;
-    font-family: 'Tilt Prism', cursive;
+body {
+    background-image: linear-gradient(to right, aqua, red, orange, blue, green, violet, indigo, yellow);
 }
 
-body {
-    background-color: black;
+#total_price {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-family: 'Noto Serif', serif;
 }
