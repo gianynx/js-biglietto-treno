@@ -14,14 +14,14 @@ I've added the method parseInt because I want the result to be an integer!*/
 const kilometersNumber = parseInt(prompt('Quanti km vuoi percorrere?'));
 const passengerAge = parseInt(prompt('Qual è la tua età?'));
 
+/* Total price of journey!
+I've realized a 'let' variable because I want to realize a variable without assigning a value! */
+let totalPrice;
+
 /* With these informations the program must calculate the total price of journey, according to these rules:
 the ticket price is defined by km (0.21 € per km).
 I've created a 'const' variable to calculate the multiplication of the ticket price! */
 const ticketPrice = kilometersNumber * 0.21;
-
-/* Total price of journey!
-I've realized a 'let' variable because I want to realize a variable without assigning a value! */
-let totalPrice;
 
 /*There is a 20% discount for minors!
 I've created a 'const' variable to realize the percentage operations! */
@@ -32,3 +32,4 @@ const discount_20 = (ticketPrice * 20) / 100;
 I've created a 'const' variable to realize the percentage operations! */
 
 const discount_40 = (ticketPrice * 40) / 100;
+console.log(discount_40);
