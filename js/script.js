@@ -40,7 +40,10 @@ if (passengerAge >= 65) {
     totalPrice = ticketPrice - discount_40;
 }
 
+// I've created a 'let' variable for the message!
+let messagge = 'Il prezzo totale del biglietto è di ';
+
 /* The output of the final price should be put out in human form (with maximum two decimals, to indicate cents on the price).
 I've used document.getElementById("id").innerHTML to access <h1> title of index.html!
 I've used the method toFixed to converte the number of the total price to a string with two decimals! */
-document.getElementById("total_price").innerHTML = 'Il prezzo totale del biglietto è di ' + totalPrice.toFixed(2) + '€ !';
+document.getElementById("total_price").innerHTML = messagge + totalPrice.toFixed(2) + '€ !';
